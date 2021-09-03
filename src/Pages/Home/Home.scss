@@ -1,25 +1,45 @@
 @import '../../Variables';
 
 .home{
-    width: 100v;
+    width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-rows: 1fr 8.5fr;
 
     .navbar{
         width: 100vw;
-        background: rgb(233, 90, 90);
         height: 100px;
         display: grid;
+        padding: 0 5rem;
         grid-template-columns: 1fr 5fr;
         .logo{
-            background-color: black;
             width: 100%;
             height: 100%;
-            place-self: center;
+            display: grid;
             h2{
                 font-family: $paragraphfont ;
-                color: white;
+                color: $maincolor;
+                letter-spacing: 1px;
+                align-self: center;
+                span{
+                    color: $textcolor;
+                }
+            }
+        }
+        .nav-item{
+            display: grid;
+            align-items: center;
+            justify-content: end;
+
+            .navs{
+                display: grid;
+                width: 40vw;
+                align-items: center;
+                grid-template-columns: repeat(3,1fr) auto;
+                p{
+                    font-family: $paragraphfont;
+                }
+            
             }
         }
     }
@@ -30,7 +50,7 @@
        .image{
            width: 100%;
            height: 100%;
-           background: rgb(24, 165, 6);
+           background:url('../../Assets/Home/HomeMainImage.png')
        }
     }
 

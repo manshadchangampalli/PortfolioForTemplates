@@ -14,7 +14,9 @@ function Home() {
           paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, odit quas ? Enim, mollitia vero libero labore eligendi molestias sint eum ut,deserunt"
           button_name="Hire Me"
         />
-        <div className="image"></div>
+        <div className="image">
+            
+        </div>
       </div>
     </div>
   );
