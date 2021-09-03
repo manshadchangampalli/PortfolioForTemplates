@@ -1,24 +1,6 @@
-// __________@import Links__________________________________________________
+@import './Variables';
 
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-
-// __________Reset__________________________________________________
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-// __________variables__________________________________________________
-
-$maincolor: #ffc101;
-$backgroundcolor: #ffff;
-$textcolor: #202a52;
-$whitefont: #ffff;
-$blackfont: #000;
-$mainfont: "Abril Fatface", cursive;
-
-// _____________Reusable components_______________________________________________
+// _____________<<<Reusable components>>> {{{TITLE}}}}_______________________________________________
 
 .title {
   background: rgb(255, 255, 255);
@@ -51,6 +33,10 @@ $mainfont: "Abril Fatface", cursive;
     margin: 10px 0 50px 0;
   }
 }
+
+// ____________________<<<  re usable components  >>>__{{{BUTTON}}}}_____________________________
+
+
 .buttons {
   background-color: $maincolor;
   padding: 8px 20px;
