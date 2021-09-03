@@ -12,22 +12,22 @@
 .title {
   background: rgb(255, 255, 255);
   height: auto;
-  width: 70%;
+  width: 80%;
   display: grid;
   place-self: center;
-  grid-template-rows: repeat(2, 1fr) auto;
+  grid-template-rows: 1fr auto auto;
   .headings {
     display: flex;
     flex-direction: column;
     justify-content: center;
     h2 {
-      font-size: 35px;
+      font-size: 45px;
       font-weight: 400;
       color: $textcolor;
       font-family: $mainfont;
     }
     h1 {
-      font-size: 50px;
+      font-size: 60px;
       margin-top: -10px;
       font-family: $mainfont;
       color: $maincolor;
