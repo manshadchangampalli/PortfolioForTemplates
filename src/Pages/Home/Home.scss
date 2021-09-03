@@ -1,0 +1,23 @@
+.home{
+    width: 100v;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 8.5fr;
+
+    .navbar{
+        width: 100vw;
+        background: rgb(233, 90, 90);
+        height: 100px;
+    }
+    .hero-section{
+        display: grid;
+        grid-template-columns: 1fr 1.2fr;
+       
+       .image{
+           width: 100%;
+           height: 100%;
+           background: rgb(24, 165, 6);
+       }
+    }
+
+}

@@ -1,0 +1,62 @@
+// __________@import Links__________________________________________________
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+// __________Reset__________________________________________________
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// __________variables__________________________________________________
+
+$maincolor: #ffc101;
+$backgroundcolor: #ffff;
+$textcolor: #202a52;
+$whitefont: #ffff;
+$blackfont: #000;
+$mainfont: "Abril Fatface", cursive;
+
+// _____________Reusable components_______________________________________________
+
+.title {
+  background: rgb(255, 255, 255);
+  height: auto;
+  width: 70%;
+  display: grid;
+  place-self: center;
+  grid-template-rows: repeat(2, 1fr) auto;
+  .headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2 {
+      font-size: 35px;
+      font-weight: 400;
+      color: $textcolor;
+      font-family: $mainfont;
+    }
+    h1 {
+      font-size: 50px;
+      margin-top: -10px;
+      font-family: $mainfont;
+      color: $maincolor;
+      font-weight: 500;
+    }
+  }
+
+  p {
+    font-size: 15px;
+    margin: 10px 0 50px 0;
+  }
+}
+.buttons {
+  background-color: $maincolor;
+  padding: 8px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  color: $whitefont;
+  box-shadow: 2px 2px 25px rgba(255, 192, 1, 0.81);
+}
