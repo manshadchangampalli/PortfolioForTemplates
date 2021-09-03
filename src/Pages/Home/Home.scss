@@ -33,7 +33,7 @@
 
             .navs{
                 display: grid;
-                width: 40vw;
+                width: 35vw;
                 align-items: center;
                 grid-template-columns: repeat(3,1fr) auto;
                 p{
@@ -54,6 +54,15 @@
            background:url('../../Assets/Home/HomeMainImage.png') no-repeat center;
            background-size: contain;
        }
+    }
+
+    .bg1{
+        position: absolute;
+        top: 200px;
+        left: -100px;
+        height: 350px;
+        width:350px;
+
     }
 
 }
