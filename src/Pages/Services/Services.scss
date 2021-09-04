@@ -1,0 +1,48 @@
+@import '../../App.scss';
+.services{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1.2fr 1.5fr;
+    grid-template-columns: 1.5fr 1fr;
+    &-title{
+        width: 75%;
+        margin-left: 225px;
+    }
+    &-box{
+        background: #ffff;
+        height: 265px;
+        width: 252px;
+        margin-left: 20px;
+        border-radius: 10px;
+        box-shadow: -5px 10px 10px 10px rgba(225,225,225,0.7);
+    }
+   
+    &-box:hover{
+        transform: scale(1.05);
+    }  
+    &-box2{
+        background: #ffff;
+        height: 265px;
+        width: 252px;
+        margin-left: 500px;
+        margin-top: 10px;
+        border-radius: 10px;
+        box-shadow: -5px 10px 10px 10px rgba(225,225,225,0.7);
+    }
+    &-box2:hover{
+        transform: scale(1.05);
+    } 
+    &-box3{
+        background: #ffff;
+        height: 265px;
+        width: 252px;
+        margin-left: 35px;
+        margin-top: 55px;
+        border-radius: 10px;
+        box-shadow: -5px 10px 10px 10px rgba(225,225,225,0.7);
+    }
+    &-box3:hover{
+        transform: scale(1.05);
+    } 
+}
