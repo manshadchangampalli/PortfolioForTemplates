@@ -1,0 +1,44 @@
+@import '../../Variables';
+.works{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    
+    &-title{
+        padding: 100px 0px 0px 200px;
+        color: $textcolor;
+        font-family: $mainfont;
+        
+    }
+    &-items{
+        width: 150px;
+        height: 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        .btn-prev{
+            padding-top: 125px;
+            padding-left: 200px;
+        }
+        .btn-next{
+            padding-left: 185px;
+        }
+        .img1{
+            padding-top: 50px;
+            padding-left: 75px;
+        }
+        .img2{
+            padding-top: 50px;
+            padding-left: 75px;
+        }
+        .img3{
+            padding-top: 50px;
+            padding-left: 75px;
+        }
+    }
+    .bgimg1{
+        position: absolute;
+        left: 450px;
+        top: 250vh;
+    }
+}
