@@ -9,7 +9,7 @@ import Works from './Pages/Works/Works'
 
 function Pages() {
     return (
-        <div className="Pages">
+        <div className="Pages" >
             <Home/>
             <Services/>
             <Works/>
