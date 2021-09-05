@@ -38,8 +38,11 @@ function Services() {
           paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
         />
       </div>
-      <div className="bgimg">
-        <Backgrounddsn1 color="75D4FD" height="500" width="500" />
+      <div className="bgimg1">
+        <Backgrounddsn1 color="75D4FD" height="525" width="426" />
+      </div>
+      <div className="bgimg2">
+        <Backgrounddsn1 color="A485FF" height="320" width="400" />
       </div>
     </div>
   );
