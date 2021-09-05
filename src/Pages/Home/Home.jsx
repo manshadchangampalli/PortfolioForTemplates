@@ -1,9 +1,10 @@
 import React from "react";
 import Backgrounddsn1 from "../../Components/Home/Backgrounddsn1";
-import Backgrounddsn2 from "../../Components/Home/Backgrounddsn2";
-import Backgrounddsn3 from "../../Components/Home/Backgrounddsn3";
 import Navbar from "../../Components/Home/Navbar";
 import Title from "../../Components/Home/Title";
+import star1 from '../../Assets/Home/Star 1.png';
+import star2 from '../../Assets/Home/Star 2.png';
+import star3 from '../../Assets/Home/Star 3.png';
 import "./Home.scss";
 
 function Home() {
@@ -18,11 +19,20 @@ function Home() {
           button_name="Hire Me"
         />
         <div className="image">
-          <Backgrounddsn2 />
-          <Backgrounddsn3 />
+          <img className="star1" src={star1} alt="" />
+          <img className="star2" src={star2} alt="" />
+          <img className="star3" src={star3} alt="" />
         </div>
       </div>
-      <Backgrounddsn1 />
+      <div className="bg1">
+        <Backgrounddsn1 color="A485FF" height="300" width="300" />
+      </div>
+      <div className="bg2">
+        <Backgrounddsn1 color="75d4fd" height="300" width="300" />
+      </div>
+      <div className="bg3">
+        <Backgrounddsn1 color="75D4FD" height="300" width="300" />
+      </div>
     </div>
   );
 }

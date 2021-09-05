@@ -3,6 +3,7 @@
 .home{
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
     display: grid;
     grid-template-rows: 1fr 8.5fr;
 
@@ -50,16 +51,44 @@
        
        .image{
            width: 100%;
+           position: relative;
+           z-index: 2;
            height: 100%;
            background:url('../../Assets/Home/HomeMainImage.png') no-repeat center;
            background-size: contain;
+           .star1{
+               position: absolute;
+               top: 0;
+               right: 100px;
+           }
+           .star2{
+               position: absolute;
+               bottom: 90px;
+               left: 40%;
+           }
        }
     }
 
     .bg1{
         position: absolute;
-        top: 200px;
+        top: 100px;
         left: -100px;
+        height: 350px;
+        width:350px;
+
+    }
+    .bg2{
+        position: absolute;
+        top: 450px;
+        right: 300px;
+        height: 350px;
+        width:350px;
+
+    }
+    .bg3{
+        position: absolute;
+        top: 50px;
+        right: 100px;
         height: 350px;
         width:350px;
 
