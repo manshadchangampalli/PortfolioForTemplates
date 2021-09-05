@@ -2,7 +2,7 @@
 .services {
   width: 100vw;
   height: 100vh;
-  padding: 0 8rem;
+  padding: 2rem 8rem;
   display: grid;
   row-gap: 40px;
   overflow-x: hidden;
@@ -35,9 +35,15 @@
   // &-box3:hover{
   //     transform: scale(1.05);
   // }
-  .bgimg{
-      position: absolute;
-      top: 120vh;
-      left: 0;
+  .bgimg1{
+    position: absolute;
+    left: -130px;
+    top: 890px;
+    z-index: -1;
+  }
+  .bgimg2{
+    position: absolute;
+    top: 120vh;
+    right: 40px;
   }
 }
