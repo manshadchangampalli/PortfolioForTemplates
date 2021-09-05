@@ -39,6 +39,7 @@
                 grid-template-columns: repeat(3,1fr) auto;
                 p{
                     font-family: $paragraphfont;
+                    color: $blackfont;
                 }
             
             }
@@ -65,6 +66,11 @@
                position: absolute;
                bottom: 90px;
                left: 40%;
+           }
+           .star3{
+               position: absolute;
+               top: 90px;
+               left: 25%;
            }
        }
     }

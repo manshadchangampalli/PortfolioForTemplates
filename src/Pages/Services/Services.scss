@@ -2,7 +2,7 @@
 .services {
   width: 100vw;
   height: 100vh;
-  padding: 0 8rem;
+  padding: 2rem 8rem;
   display: grid;
   row-gap: 40px;
   overflow-x: hidden;
@@ -39,6 +39,7 @@
     position: absolute;
     left: -130px;
     top: 890px;
+    z-index: -1;
   }
   .bgimg2{
     position: absolute;

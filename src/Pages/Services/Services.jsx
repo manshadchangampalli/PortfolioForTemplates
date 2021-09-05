@@ -12,7 +12,7 @@ function Services() {
           <Title
             heading1="My awsome"
             heading2="Services"
-            paragraph="Lorem ipsum dolor sit amet consectetur adipisicing elit.dgfhhfhfd sint eum ut,deserunt"
+            paragraph="Lorem Ipsum is simply dummy text of the printing andtypesetting industry. Lorem Ipsum has been the industry'sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's typinng fast...."
             button_name="Download cv"
           />
         </div>

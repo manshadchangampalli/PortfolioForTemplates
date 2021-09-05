@@ -3,6 +3,7 @@ import React from "react";
 function Backgrounddsn1(props) {
   return (
     <svg
+      className="background-design"
       width={props.width}
       height={props.height}
       viewBox="0 0 290 290"

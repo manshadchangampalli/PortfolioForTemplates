@@ -1,0 +1,32 @@
+@import "../../Variables";
+
+.clients{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 8rem;
+    .clients-title{
+        margin-left: 75px;
+        width: 100%;
+        display: grid;
+        justify-content: end;
+        
+    }
+    .client-icon{
+        background: url("../../Assets/Clients/Component\ 17.png") no-repeat center;
+        display: grid;
+        place-items: center;
+        .client-icons{
+            width: auto;
+            height: 200px;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            img{
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+}
