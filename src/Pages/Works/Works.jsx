@@ -12,7 +12,7 @@ function Works() {
     return (
         <div className="works">
             <div className="works-title">
-                <h1>Client's always get <span className="expectional">expectional </span> <br/>
+                <h1>Client's always get <span className="expectional">expectional, </span> <br/>
                 
                  works from me</h1>
                  
@@ -22,6 +22,7 @@ function Works() {
                     <img className="btn-prev" src={btn1} alt="no" />
                     <img className="btn-next" src={btn2} alt="no" />
                 </div>
+
                 <div><img className="img1" src={img1} alt="no" /></div>
                 <div><img className="img2" src={img2} alt="no" /></div>
                 <div><img className="img3" src={img3} alt="no" /></div>
