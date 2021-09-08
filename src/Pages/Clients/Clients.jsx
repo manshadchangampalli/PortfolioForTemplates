@@ -10,11 +10,6 @@ import icon6 from "../../Assets/Clients/Component 16.png"
 import Backgrounddsn1 from "../../Components/Home/Backgrounddsn1"
 
 function Clients() {
-<<<<<<< HEAD
-    return (
-        <div>
-            
-=======
   return (
     <div className="clients">
       
@@ -34,7 +29,6 @@ function Clients() {
             <img src={icon4} alt="" />
             <img src={icon5} alt="" />
             <img src={icon6} alt="" />
->>>>>>> 1ecfa0aeeaa17d2b3cc4502fcc9d6c52e1eeb4dc
         </div>
       </div>
     </div>
