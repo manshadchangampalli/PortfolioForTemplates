@@ -12,7 +12,7 @@ function Works() {
     return (
         <div className="works">
             <div className="works-title">
-                <h1>Client's always get expectional <br/>
+                <h1>Client's always get <span className="expectional">expectional </span> <br/>
                 
                  works from me</h1>
                  
@@ -25,7 +25,7 @@ function Works() {
                 <div><img className="img1" src={img1} alt="no" /></div>
                 <div><img className="img2" src={img2} alt="no" /></div>
                 <div><img className="img3" src={img3} alt="no" /></div>
-            
+                <div><img className="img4" src={img3} alt="no" /></div>
             </div>
             <div className="bgimg1">
                 <Backgrounddsn1 color="A485FF" height="320" width="400" />

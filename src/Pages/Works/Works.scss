@@ -1,6 +1,6 @@
 @import '../../Variables';
 .works{
-    height: 100vh;
+    height: 85vh;
     width: 100vw;
     display: grid;
     grid-template-rows: 1fr 2fr;
@@ -9,16 +9,19 @@
         padding: 100px 0px 0px 200px;
         color: $textcolor;
         font-family: $mainfont;
-        
+        .expectional{
+            color: $maincolor;
+        }
     }
     &-items{
         width: 150px;
         height: 200px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         .btn-prev{
             padding-top: 125px;
             padding-left: 200px;
+            height: 200px;
         }
         .btn-next{
             padding-left: 185px;
@@ -34,6 +37,10 @@
         .img3{
             padding-top: 50px;
             padding-left: 75px;
+        }
+        .img4{
+            padding-top: 50px;
+            padding-left: 50px;
         }
     }
     .bgimg1{
