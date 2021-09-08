@@ -32,7 +32,9 @@ function Contact() {
         <ContactBox socialmedia={line} name="line" />
         
       </div>
-      <div className="copywrite"></div>
+      <div className="copywrite">
+          <p>Copyright - man-niz | All Rights Reserved </p>
+      </div>
     </div>
   );
 }
