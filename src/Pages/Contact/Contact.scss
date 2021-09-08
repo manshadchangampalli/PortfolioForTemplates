@@ -1,21 +1,65 @@
+@import "../../Variables";
+
+
 .contact{
     width:100vw;
     height: 100vh;
     display: grid;
-    grid-template-rows:  .4fr 1fr;
+    grid-template-rows:  .4fr 1fr auto;
     &-title{
-        background: #000;
-        padding: 0 25%;
         display: grid;
         place-items: center;
         text-align: center;
 
-        color: rgb(226, 226, 226);
+        
         h1{
-            font-size: 35px;
+            font-size: 45px;
+            color: $textcolor;
+            font-family: $mainfont;
+            font-weight: 400;
+            margin-bottom: 20px;
+            line-height: 1;
+            span{
+                color: $maincolor;
+                
+            }
         }
         p{
             max-width: 600px;
         }
+    }
+    &-div{
+        
+        padding:40px 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        .contact-box{
+            background: #FFFFFF;
+            box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+            border-radius: 11px;        
+            height: 80px;
+            cursor: pointer;
+            width: 300px;
+            place-self: center;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            img{
+                align-self: center;
+                height: 75px;
+                margin-left: 10px;
+            }
+            h1{
+                align-self: center;  
+                font-family: $paragraphfont;
+                font-weight: 200; 
+                font-size: 30px;         
+            }
+        }
+    }
+    .copywrite{
+        height: 100px;
+        width: 100vw;
+        background: #000;
     }
 }
