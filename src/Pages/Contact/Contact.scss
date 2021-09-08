@@ -1,0 +1,13 @@
+.contact{
+    width:100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows:  .6fr 1fr;
+    &-title{
+        background: #000;
+        padding: 0 25%;
+        display: grid;
+        grid-template-rows: 1fr 1fr auto;
+        color: rgb(226, 226, 226);
+    }
+}

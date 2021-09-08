@@ -15,7 +15,7 @@ function Clients() {
       
       <div className="clients-title">
         <Title
-          heading1="Work For All This,"
+          heading1="Work For All This"
           heading2="Brands & Clients"
           paragraph="Lorem Ipsum is simply dummy text of the printing andtypesetting industry. Lorem Ipsum has been the industry'sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's typinng fast...."
           button_name="Details"
