@@ -9,6 +9,9 @@
         padding: 100px 0px 0px 200px;
         color: $textcolor;
         font-family: $mainfont;
+        h1{
+            font-weight: 400;
+        }
         .expectional{
             color: $maincolor;
         }
@@ -17,7 +20,7 @@
         width: 150px;
         height: 200px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 4fr;
         .btn-prev{
             padding-top: 125px;
             padding-left: 200px;
@@ -25,23 +28,28 @@
         }
         .btn-next{
             padding-left: 185px;
+        } 
+        .imgs{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            .img1{
+                padding-top: 50px;
+                padding-left: 75px;
+            }
+            .img2{
+                padding-top: 50px;
+                padding-left: 75px;
+            }
+            .img3{
+                padding-top: 50px;
+                padding-left: 75px;
+            }
+            .img4{
+                padding-top: 50px;
+                padding-left: 50px;
+            }
         }
-        .img1{
-            padding-top: 50px;
-            padding-left: 75px;
-        }
-        .img2{
-            padding-top: 50px;
-            padding-left: 75px;
-        }
-        .img3{
-            padding-top: 50px;
-            padding-left: 75px;
-        }
-        .img4{
-            padding-top: 50px;
-            padding-left: 50px;
-        }
+        
     }
     .bgimg1{
         position: absolute;

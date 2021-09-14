@@ -1,0 +1,39 @@
+@import '../../Variables';
+.projects{
+    height: 85vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr 1.5fr;
+    &-title{
+        padding: 15px 350px;
+        h1{
+            padding: 20px 200px;
+            color: $textcolor;
+            font-family: $mainfont;
+            font-weight: 400;
+        }
+        p{
+            font-weight: lighter;
+            align-self: center;
+            color: $blackfont;
+            text-align: center;
+        }
+    }
+    &-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100px;
+        .img{
+            height: 228px;
+            width: 262px;
+        }
+        .img1{
+            padding-left: 300px; 
+        }
+    }
+    .bg-img{
+        position: absolute;
+        top: 410vh;
+        left: -100px;
+    }
+}
