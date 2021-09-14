@@ -3,8 +3,10 @@
     height: 85vh;
     width: 100vw;
     display: grid;
-    grid-template-rows: 1fr 1.5fr;
+    grid-template-rows: .3fr 1.5fr;
     justify-content: center;
+    margin-bottom: 50px;
+    grid-gap: 20px;
     
     &-title{
         display: grid;
@@ -27,6 +29,7 @@
     }
     &-items{
         display: grid;
+        grid-gap: 30px;
         grid-template-columns: 1fr 1fr 1fr;
         width: 100vw;
         justify-items: center;
