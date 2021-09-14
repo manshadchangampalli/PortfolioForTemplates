@@ -4,17 +4,23 @@
     width: 100vw;
     display: grid;
     grid-template-rows: 1fr 1.5fr;
+    justify-content: center;
+    
     &-title{
-        padding: 15px 350px;
+        display: grid;
+        padding: 5rem 0;
+        justify-content: center;
         h1{
-            padding: 20px 200px;
+            justify-self: center;
             color: $textcolor;
+            font-size: 45px;
             font-family: $mainfont;
             font-weight: 400;
         }
         p{
             font-weight: lighter;
             align-self: center;
+            width: 600px;
             color: $blackfont;
             text-align: center;
         }
@@ -22,10 +28,14 @@
     &-items{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        width: 100px;
+        width: 100vw;
+        justify-items: center;
+        align-items: center;
+        padding: 0 20%;
         .img{
-            height: 228px;
-            width: 262px;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
         }
         .img1{
             padding-left: 300px; 
